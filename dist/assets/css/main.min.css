@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}img{display:block;width:100%;height:auto;-o-object-fit:cover;object-fit:cover}header{padding:50px 0;position:relative;display:flex;flex-direction:column;justify-content:center}header::after{position:absolute;height:1px;width:100%;content:"";bottom:0;right:0;background:#000}header h2{font-size:1.3rem}.img-cont{display:flex;flex-wrap:wrap}.txt-img_block{margin-bottom:50px}.txt-img_block:last-child{margin-bottom:0}.txt-img_block:nth-of-type(even) .col-12:first-child{order:1}main{padding:50px 0}
+/*# sourceMappingURL=main.min.css.map */

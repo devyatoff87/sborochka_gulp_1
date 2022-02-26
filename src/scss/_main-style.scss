@@ -1,0 +1,41 @@
+
+header {
+    padding: 50px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &::after {
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        content: "";
+        bottom: 0;
+        right: 0;
+        background: black;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+}
+
+
+.img-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txt-img_block {
+    margin-bottom: 50px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:nth-of-type(even) .col-12:first-child {
+        order: 1;
+    }
+}
+
+main {
+    padding: 50px 0;
+}
